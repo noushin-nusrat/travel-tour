@@ -9,7 +9,7 @@ function Destination() {
                 style={{
                     backgroundImage: "url('/images/hero.png')",
                 }}
-            >
+               >
                 <div className="bg-black min-h-screen bg-opacity-60">
                     <Nav />
                     <div className="py-10 text-center">

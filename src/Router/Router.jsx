@@ -5,6 +5,8 @@ import Booking from "../Pages/Booking/Booking";
 import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
 import Destination from "../Pages/Destination/Destination";
+import BlogPage from "../Pages/BlogPage/BlogPage";
+
 
 export const router = createBrowserRouter([
   {
@@ -31,6 +33,10 @@ export const router = createBrowserRouter([
       {
         path: "/destination",
         element: <Destination />
+      },
+      {
+        path: "/blog",
+        element: <BlogPage></BlogPage>
       },
     ],
   },
