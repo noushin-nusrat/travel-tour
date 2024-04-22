@@ -13,7 +13,7 @@ const BlogPage = () => {
             >
                 <div className="bg-black min-h-screen bg-opacity-30">
                     <Nav />
-                    <section className='mt-14'>
+                    <section className='mt-14 animate__animated animate__fadeInUp'>
                         <div className="container max-w-6xl p-6 mx-auto space-y-8 sm:space-y-12">
                             <a rel="noopener noreferrer" href="#" className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-50">
                                 <img src="https://source.unsplash.com/random/480x360" alt="" className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500" />

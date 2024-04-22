@@ -13,7 +13,7 @@ const Contact = () => {
             >
                 <div className="bg-black min-h-screen bg-opacity-40">
                     <Nav />
-                    <div className="mt-14 grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 dark:bg-gray-100 dark:text-gray-800 animate__animated animate__fadeIn">
+                    <div className="mt-14 grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 dark:bg-gray-100 dark:text-gray-800 animate__animated animate__fadeInUp">
                         <div className="flex flex-col justify-between">
                             <div className="space-y-2">
                                 <h2 className="text-4xl font-bold leading-tight lg:text-5xl">Let's talk!</h2>
